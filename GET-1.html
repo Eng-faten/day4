@@ -1,0 +1,139 @@
+<!DOCTYPE>
+<html dir="rtl">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <header style="text-align:center;">
+      <div class="row">
+        <div class="col py-5"><img src="./img/1.png" alt=" logo" width="150px" height="140px"></div>
+      </div>
+      <table style="text-align:center;">
+        <tr>
+          <td>
+            <input type="text" class="form-control" value="بحث"><br>
+          </td>
+        </tr>
+      </table>
+
+    </header>
+    <!--header-->
+
+    <div class="container">
+      <table id="table" class="table table-borderless  p-3 mb-2 bg-white" width="100%">
+        <tbody>
+          <tr>
+
+            <td><label for="fname">رقم العقد:</label>
+              <input type="text" class="form-control" id="fname" name="fname">
+            </td>
+
+            <td><label for="fname">رقم المستثمر:</label>
+              <input type="number" class="form-control" id="fname" name="fname">
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <abel for="fname">اسم المستثمر:</label>
+                <input type="text" class="form-control" id="fname" name="fname">
+            </td>
+            <td><label for="fname">نوع المستثمر :</label>
+              <select class="form-control" id="fname">
+                <option> فرد</option>
+                <option> جهة</option>
+          </tr>
+
+
+          <tr>
+            <td><label for="fname">النشاط الرئيسي :</label>
+              <select class="form-control" id="fname">
+                <option> </option>
+                <option> </option>
+            </td>
+            <td><label for="fname"> النشاط الفرعي :</label>
+              <select class="form-control" id="fname">
+                <option> </option>
+                <option> </option>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td> <label for="fname">رقم القطعة:</label>
+              <input type="text" class="form-control" id="fname" name="fname">
+            </td>
+
+            <td><label for="number">مبلغ الايجار:</label>
+              <input type="number" class="form-control">
+            </td>
+          </tr>
+
+
+          <tr>
+            <td><label for="number"> رقم المطالبة:</label>
+              <input type="number" class="form-control">
+            </td>
+            <td><label for="fname"> حالة العقد :</label>
+              <select class="form-control" id="fname">
+                <option> ساري </option>
+                <option>منتهي </option>
+                <option>ملغي </option>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td><label for="fname"> حالة السداد :</label>
+              <select class="form-control" id="fname">
+                <option> مسدد </option>
+                <option>مستحق </option>
+                <option>الكل </option>
+            </td>
+            <td><label for="fname"> نوع العقد :</label>
+              <select class="form-control" id="fname">
+                <option> مباشر </option>
+                <option>مؤقت </option>
+                <option>مزايدات </option>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td><label for="fname">تاريخ العقد:</label><br>
+              <label for="datemax">من</label>
+              <input class="form-control" type="date" id="datemax" name="datemax" max="2020-12-31">
+
+              <label for="datemin">الى</label>
+              <input class="form-control" type="date" id="datemin" name="datemin" min="2022-01-02"><br><br>
+            </td>
+
+            <td> <label for="phone">الرقم الضريبي:</label>
+              <input type="tel" class="form-control" id="number" placeholder="000000000000000"> </td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="container" style="text-align:center;">
+      <td><button type="submit" class= "btn btn-primary">حفظ</button></td>
+
+    </div>
+
+    </table>
+  </div>
+</body>
+
+</html>
